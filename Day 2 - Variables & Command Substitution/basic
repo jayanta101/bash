@@ -1,0 +1,14 @@
+# How Bash variables work?
+# Why do we use $?
+# Double quotes are important
+# Variables can contain commands
+
+# Command substitution:
+Syntax: $(command)
+
+For example:
+current_date="$(date)"
+
+# Environment variables
+$USER, $HOME, $PWD
+These are environment variables provided by your Linux environment.

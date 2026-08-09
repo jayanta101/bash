@@ -1,0 +1,4 @@
+# The read command
+# Better way: read -p
+# Multiple inputs
+# read -r

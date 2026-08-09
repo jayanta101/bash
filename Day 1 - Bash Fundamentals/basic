@@ -1,0 +1,55 @@
+# Bash Fundamentals
+
+## What exactly is Bash?
+
+Bash = Bourne Again Shell.
+
+When you open your Ubuntu terminal and type:
+
+"ls" or, "cd /var/www"
+
+you're interacting with a shell.
+
+Bash is one of the most commonly used shells on Linux.
+
+## You can check yours:
+
+> echo $SHELL
+
+## Also check the Bash version:
+
+> bash --version
+
+# Terminal vs Shell vs Bash
+
+Terminal:
+The application/window where you type commands.
+
+Shell:
+The program that receives your commands and executes them.
+
+Bash:
+One particular shell.
+
+# What is #!/bin/bash?
+
+This line: #!/bin/bash
+is called a shebang.
+
+It tells Linux: "Use /bin/bash to execute this file." It's extremely common at the beginning of Bash scripts.
+
+# How to make the script executable
+
+> ./<file-name>.sh
+
+# Important difference
+
+You now know two ways to run a Bash script.
+
+Method 1: bash hello.sh
+You're explicitly telling Bash: Execute this file using Bash.
+
+Method 2: ./hello.sh
+You're telling Linux: Execute this file.
+Linux then looks at: #!/bin/bash
+and knows to use Bash.
