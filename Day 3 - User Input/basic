@@ -1,4 +1,10 @@
 # The read command
 # Better way: read -p
 # Multiple inputs
+
 # read -r
+Prevents Bash from interpreting backslashes specially.
+
+# Password input
+
+# read with a default value

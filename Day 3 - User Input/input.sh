@@ -6,12 +6,24 @@
 # echo "Hello, $name! Welcome to the Bash scripting tutorial."
 
 # Multiple inputs
-read -p "What is your name? " name
-read -p "What is your age? " age
-read -p "Where do you live? " city
+# read -p "What is your name? " name
+# read -p "What is your age? " age
+# read -p "Where do you live? " city
 
-echo ""
-echo "===== User Information ====="
-echo "Name: $name"
-echo "Age: $age"
-echo "City: $city"
+# echo ""
+# echo "===== User Information ====="
+# echo "Name: $name"
+# echo "Age: $age"
+# echo "City: $city"
+
+# -r
+read -r -p "What is your name? " name
+echo "Hello, $name!"
+
+# Without -r
+# Jayanta\Biswas -> JayantaBiswas
+
+# With -r
+# Jayanta\Biswas -> Jayanta\Biswas
+
+
