@@ -1,7 +1,7 @@
 # if
 # else
 # elif
-# String comparison
-# Number comparison
-# Check whether a file exists
-# Check directories
+# String comparison (=, !=, -z, -n)
+# Number comparison (-eq, -ne, -gt, -ge, -lt, -le)
+# Check whether a file exists (-f)
+# Check directories (-d)
